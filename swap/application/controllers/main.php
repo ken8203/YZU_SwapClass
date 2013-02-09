@@ -35,7 +35,6 @@ class Main extends MY_Controller {
             $data['result'][$i]->bgcolor = ($status == '0' ? '' : ($status == '1' ? 'success' : 'error')) ;
          }
         // list swapinfo
-        $userId = '100000216922702' ;
         if($userId == 0)
         {
             $data['url'] = $this->facebook->getLoginUrl(array('scope'=>'email')) ;
