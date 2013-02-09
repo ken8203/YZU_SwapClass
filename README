@@ -1,0 +1,5 @@
+A Web System of SwapClass for YZU using CodeIgniter.
+
+YOU HAVE TO FILL UP THE FILE BELOW:
+\application\config\database.php
+\application\config\facebook.php
